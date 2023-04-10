@@ -2,7 +2,7 @@
 """
 Created on Sun Apr  9 18:20:44 2022
 
-@author: amirh
+Copyright TheAmirHK
 """
 # In[] libraries
 import numpy as np 
