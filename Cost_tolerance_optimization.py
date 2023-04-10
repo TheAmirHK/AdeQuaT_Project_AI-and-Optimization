@@ -2,7 +2,7 @@
 """
 Created on Wed Aug 10 13:08:46 2022
 
-@author: amirh
+Copyright TheAmirHK
 """
 
 from mealpy.bio_based import SMA
