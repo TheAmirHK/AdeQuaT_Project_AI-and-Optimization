@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-@author: amirh
+Copyright TheAmirHK
 """
 import numpy as np
 import tensorflow as tf
