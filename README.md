@@ -6,6 +6,6 @@ In design engineering, precise tolerances are essential to meet required specifi
 
 <h1>Reference </h1>
 <p align="justify">
-Khezri, A., Schiller, V., Goka, E., Homri, L., Etienne, A., Stamer, F., Dantan, J.-Y., & Lanza, G. (2023). Evolutionary cost-tolerance optimization for complex assembly mechanisms via simulation and surrogate modeling approaches: application on micro gears. The International Journal of Advanced Manufacturing Technology. 10.1007/s00170-023-11360-x </p>
+Khezri, A., Schiller, V., Goka, E., Homri, L., Etienne, A., Stamer, F., Dantan, J.-Y., & Lanza, G. (2023). Evolutionary cost-tolerance optimization for complex assembly mechanisms via simulation and surrogate modeling approaches: application on micro gears. The International Journal of Advanced Manufacturing Technology. <a href="https://doi.org/10.1007/s00170-023-11360-x">https://doi.org/10.1007/s00170-023-11360-x</a></p>
 
 
