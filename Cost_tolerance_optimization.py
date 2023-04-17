@@ -4,21 +4,14 @@ Created on Wed Aug 10 13:08:46 2022
 
 Copyright TheAmirHK
 """
-
-from mealpy.bio_based import SMA
 import numpy as np
 import pickle
 from scipy.stats import truncnorm, norm
 from mealpy.utils.visualize import *
-from mealpy.evolutionary_based.GA import BaseGA
 import tensorflow as tf
 from numpy import argmax
-from mealpy.human_based.LCO import BaseLCO
-from mealpy.math_based.HC import BaseHC
-from mealpy.math_based.PSS import OriginalPSS
 from mealpy.evolutionary_based.DE import SADE
-from mealpy.swarm_based.GWO import BaseGWO
-from mealpy.human_based.QSA import ImprovedQSA
+
 
 ## Note: Cost values in this model are classified as condifientioal data and the following cost parameters do not represent the industry case !
 ## However, the pickle file representes and evaluates the conformance of real case gears.
@@ -112,17 +105,6 @@ epoch = 20
 pop_size = 10
 model = SADE(problem_dict1, epoch, pop_size)
 
-# In[] GWO optimisation run
-#epoch = 150
-#pop_size = 50
-#model = BaseGWO(problem_dict1, epoch, pop_size)
-
-# In[] GA optimisation run
-#epoch = 200
-#pop_size = 50
-#pc = 0.9
-#pm = 0.05
-#model = BaseGA(problem_dict1, epoch, pop_size, pc, pm)
 
 # In[] Print solution
 best_position, best_fitness = model.solve()
